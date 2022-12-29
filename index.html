@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wheather App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/8fec623d55.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <section>
+        <div id="back-1"></div>
+        <div class="cont-1">
+            <div class="h-1">
+                <h1 ><span id="temp">Temprature</span> °C </h1>
+                <p id="city">Place</p>
+            </div>
+            <div class="many-1">
+                <div class="n1">
+                    <form id="wheatherForm">
+                        <input class="in-1" id="input-1" type="text" placeholder="Another Location">
+                        <button type="submit">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </form>
+                    <br>
+                    <hr>
+                    <br>
+                    <p >Delhi</p>
+                    <p>Himachal Pradesh</p>
+                    <p >Gujrat</p>
+                    <br>
+                    <hr>
+                </div>
+                <br>
+                <div class="n2">
+                    <h3>Wheather Conditions</h3><br>
+                    <div class="ds-1">
+                        <p >Cloudy <span id="clouds"></span></p>
+                        <p >Humidity <span id="humidity"></span></p>
+                        <p>Wind  <span id="wind" ></span></p><br>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
